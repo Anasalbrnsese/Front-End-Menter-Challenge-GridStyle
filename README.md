@@ -1,3 +1,0 @@
-# Frontend Mentor - News homepage
-
- 
