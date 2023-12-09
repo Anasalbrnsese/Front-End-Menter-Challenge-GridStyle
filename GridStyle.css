@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    ;
+}
+
+:root {
+    --image1: url(\Users\anasa\OneDrive\Desktop\vs.code\my project web\images_web_design\images\image-gaming-growth.jpg);
+}
+
+.page {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        "logo logo nav nav"
+        "section sec aside aside"
+        "footer1 footer1 footer1 footer1";
+}
+
+.ima_w {
+    grid-area: logo;
+    position: relative;
+    right: -40%;
+    bottom: -40%;
+}
+
+.nav_sevrice {
+    grid-area: nav;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: calc(600% /4);
+    position: relative;
+    bottom: -50%;
+    right: 100px;
+    font-family: system-ui;
+}
+
+section {
+    grid-area: section;
+    position: relative;
+    right: -30%;
+    font-family: system-ui;
+
+}
+
+.future {
+    width: 205px;
+    font-size: 41px;
+    height: 100px;
+    text-emphasis: none;
+    position: relative;
+    right: -180px;
+    text-align: start;
+    font-family: system-ui;
+}
+
+button {
+    position: relative;
+    width: 140px;
+    height: 40px;
+    color: aliceblue;
+    background-color: #ef5e51;
+    top: 40px;
+    font: 1em sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.sec2 {
+    left: 60px;
+    grid-area: sec;
+    position: relative;
+    bottom: -63%;
+    font-size: 13px;
+    width: 280px;
+    text-align: start;
+    color: #c6c5ca;
+    font-family: system-ui;
+
+}
+
+
+
+aside {
+    grid-area: aside;
+    background-color: #00001a;
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 99%;
+    position: relative;
+    right: -5%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-family: system-ui;
+    font-size: 15px;
+    text-align: justify;
+
+
+}
+
+.footer1 {
+    grid-area: footer1;
+}
+
+.foot_ul {
+    width: calc(263% /4);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: flex-end;
+    position: relative;
+    right: -177px;
+    font-size: 15px;
+
+}
+
+.li_01 {
+
+    width: 186px;
+    height: 0px;
+    position: relative;
+    right: -130px;
+    top: -80px;
+    font-size: small;
+}
+
+.li_02 {
+
+    width: 186px;
+    height: 0px;
+    position: relative;
+    right: -130px;
+    top: -80px;
+    font-size: small;
+}
+
+.li_03 {
+
+    width: 186px;
+    height: 0px;
+    position: relative;
+    right: -130px;
+    top: -80px;
+    font-size: small;
+}
+
+.img1 {
+    width: 100px;
+    height: 116px;
+    position: relative;
+    right: -140px;
+    bottom: -30px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.li_01::before {
+    content: "01";
+    display: block;
+    font-size: xx-large;
+    position: relative;
+    top: -5px;
+    color: #c6c5ca;
+    font-family: system-ui;
+
+
+}
+
+.li_02::before {
+    content: "02";
+    display: block;
+    font-size: xx-large;
+    position: relative;
+    top: -5px;
+    color: #c6c5ca;
+    font-family: system-ui;
+
+}
+
+.li_03::before {
+    content: "03";
+    display: block;
+    font-size: xx-large;
+    position: relative;
+    top: -5px;
+    color: #c6c5ca;
+    font-family: system-ui;
+
+}
+
+.image_web_3 {
+    border-radius: 4px;
+    width: 500px;
+    height: 231px;
+    position: relative;
+    right: -180px;
+    top: 0px;
+
+}
+
+hr {
+    display: flex;
+    width: 80%;
+    right: -40px;
+    position: relative;
+    color: #5e5e78;
+}
+
+h1 {
+    color: hsl(35, 77%, 62%);
+    font-family: system-ui;
+    position: relative;
+    right: -20px;
+
+}
+
+.div_color_words {
+    color: #c6c5ca;
+    position: relative;
+    right: -20px;
+    font-size: small;
+    width: 300px;
+}
+
+h2 {
+    position: relative;
+    right: -20px;
+}
+
+h3:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+button:hover {
+    background-color: #00001a;
+    cursor: -webkit-grabbing;
+}
+
+nav ul li:hover {
+    background: transparent;
+    color: #c58785;
+    cursor: -webkit-grabbing;
+}
+
+h2:hover {
+    color: #ef5e51;
+}
