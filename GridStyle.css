@@ -39,7 +39,7 @@
     grid-area: nav;
     width: 172%;
     height: 275px;
-    background-image: url(/assets/images/image-web-3-desktop.jpg);
+    background-image: url(../Front-End-Menter-Challenge-GridStyle/assets/images/image-web-3-desktop.jpg);
     background-size: cover;
     background-position: center;
 }
